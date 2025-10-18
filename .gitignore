@@ -1,6 +1,6 @@
 # Custom
 exp*
-*.log 
+*.log
 *sge*
 *.err
 *.out
@@ -13,6 +13,12 @@ _build/
 *.csv
 core.*
 tmp/
+
+# Downloaded models
+models/
+
+# Claude Code
+.claude/
 
 # wavlm
 WavLM-Base+.pt
